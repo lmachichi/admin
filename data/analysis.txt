@@ -19,15 +19,27 @@
         - Model Varchar(255)        the model of this item.
         - Description text          Used to write some details and description for the item.
         - BelongToCategory Int(11)  this connected with category ID to identify wich category that this item Belong To.
-         
+
     + Logs
 = Application Features & Pages
     + Main Pages
-        - Dashbord
-        - Settings
-        - Statistics
-        -Logs
+        - Dashbord      The Home page after the login show latest added items and small statistics for the inventory application & information about your login.
+        - Settings      The Page to control the application & the settings.
+        - Statistics    The page show log for admin on what happen in the application [Added,Modified,Deleted]
+        - Logs
+        - 
     + User & Groups Pages
+        - Groups    the Page [Add / Edit / Delete] Groups & Permissions.
+        - Users     the page [Add / Edit / Delete] Users & Change The User Group.
     + Categories & Items Pages
 
 = Application Techniques, Tools & Librairies
+    + Design & Front End
+        - Bootstrap     Will Be Used For Creating The Reponsive Layout & For Adding Nice UI.
+        - Font Awesome  Will be used for adding iconic Fonts to improve application Speed.
+        - JQuery        Will be used for all javascript Design tricks & work.
+    + Programming & Back End
+        - PHP       Will be the main language for crafting the application.
+        - Mysql     will be the database to store Data.
+        - PDO       will be the class To Connect To Database.
+        - MVC       will be the design pattern to use in crafting the application.
