@@ -1,4 +1,4 @@
-<?php include "includes/themplates/head.inc.php" ?>
+<?php include "includes/themplates/head.inc.php" ?>;
 
 
 
@@ -58,4 +58,4 @@
     </script>
 
 
-<?php include "includes/themplates/footer.inc.php" ?>
+<?php include "includes/themplates/footer.inc.php" ?>;
