@@ -17,19 +17,15 @@ git push
 git pull origin main
 //check if erroor in repo
 git push origin main
+git push -u origin git
 
-git branch
-//infos about branch in local only
 git branch -a
 //infos about branch local abd info for repo
 git branch git
 //create branch named git in local and repo
 git checkout git
 // enabling git
-git add -A
-git commit -m "git branch"
-git pull origin git
-git push -u origin git
+
 git branch --merged
 //sweeting beetwen branchs
 git merge git
@@ -41,8 +37,8 @@ git origin --delete git
 rm -rf .git
 //Remove >git folder
 
-git merge master2
-git push origin nain
+git merge git
+git push origin main
 git push -u origin git
 git remote -v
 //infos in repo
