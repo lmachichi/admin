@@ -16,12 +16,12 @@ git push
 git pull origin main
 //check if erroor in repo
 git push origin main
-
+git branch
+//infos about branch in local only
 git branch -a
-//infos about branch
+//infos about branch local abd info for repo
 git branch git
 //create branch named git in local and repo
-git checkout git
 git checkout git
 // enabling git
 git add -A
