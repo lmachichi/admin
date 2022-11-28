@@ -1,0 +1,33 @@
+* Inventory Application Simple Analysis
+= Database Structure
+    + Settings & Infos
+    + Groups
+    + Users
+        - ID Int(11) Auto_Increment Identifier For The User.
+        - Username Varchar(255)     Username used To Login To Control Panel.
+        - Password Varchar(255)     Password used to Login To Control Panel.
+        - FullName Varchar(255)     Nice Name that Show In Profile Page.
+        - Email Varchar(255)        Email To Receive Notification & Reset Information When Needed.
+        - BelongToGroup Int(11)     This Connected With Group ID To Identify Wich Group That  this User Belong To.
+        - MembreSince datetime      This show The Time that this user Registred Or Added To the Application.
+        - UserIP Varchar(255)       This show the user ip for admin Only to check where the User logged In Form.
+        - ProtectedStatus int(11)   the status of the user if its protected from delete or No.
+    + Categories
+    + Items
+        - ID Int(11) Auto_Increment Identifier for this Item.
+        - ItemName Varchar(255)     Nice Name of this item.
+        - Model Varchar(255)        the model of this item.
+        - Description text          Used to write some details and description for the item.
+        - BelongToCategory Int(11)  this connected with category ID to identify wich category that this item Belong To.
+         
+    + Logs
+= Application Features & Pages
+    + Main Pages
+        - Dashbord
+        - Settings
+        - Statistics
+        -Logs
+    + User & Groups Pages
+    + Categories & Items Pages
+
+= Application Techniques, Tools & Librairies
