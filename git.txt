@@ -2,8 +2,9 @@ git log
 git config --global user.name "h m"
 git config --global user.email "xyz@gmail.com"
 git init
-git status
 git config --list
+
+git status
 git diff
 touch .gitignore
 //creat .gitignore file => include folder to ignored in this file
@@ -16,6 +17,7 @@ git push
 git pull origin main
 //check if erroor in repo
 git push origin main
+
 git branch
 //infos about branch in local only
 git branch -a
