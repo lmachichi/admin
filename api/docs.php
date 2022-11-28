@@ -7,7 +7,7 @@
             die("fail To Connect to MySql" . mysqli_connect_error());
         }
         
-        $query = "SELECT * FROM `docs` ORDER BY `docs`.`docCommand` DESC";
+        $query = "SELECT * FROM `docs` ORDER BY `docs`.`docID` DESC";
         $results = $conn->query($query);
 
         $output = [];

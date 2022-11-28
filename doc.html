@@ -10,7 +10,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -101,7 +101,7 @@
       <a class="p-2 link-secondary" href="./outcome.html">Outcome</a>
       <a class="p-2 link-secondary" href="./note.html">Note</a>
       <a class="p-2 link-secondary" href="./tag.html">Tag</a>
-      <a class="p-2 link-secondary" href="./command.html">Command</a>
+      <a class="p-2 link-secondary" href="./doc.html">Doc</a>
       <a class="p-2 link-secondary" href="./blog.html">Blog</a>
       <a class="p-2 link-secondary" href="./account.html">Account</a>
       <a class="p-2 link-secondary" href="./cv.html">CV</a>
@@ -117,10 +117,10 @@
     
     <ul id="doc"></ul>
 
-    <script src="../assets/jquery.min.js"></script>
+    <script src="assets/jquery.min.js"></script>
     <script>
         $( function(){
-            $.get("http://localhost/docs/docs.php", function(data){
+            $.get("http://localhost/app/docs/api/docs.php", function(data){
                 for(var i=0; i<data.length; i++){
                     $('#doc').append("<li>"+data[i].docCommand+"</li>");
                 }
