@@ -43,3 +43,28 @@
         - Mysql     will be the database to store Data.
         - PDO       will be the class To Connect To Database.
         - MVC       will be the design pattern to use in crafting the application.
+
+|--XAMPP htdocs
+    |--MyProject
+        |--config.php
+        |--functions.php
+        |--header.php
+        |--nav.php
+        |--index.php
+        |--js   
+        |--css
+        |--images
+        |--register
+            |--index.php
+        |--messages
+            |--inbox
+                |--index.php
+                |--handle_inbox.php
+            |--outbox
+                |--index.php
+                |--handle_outbox.php
+            |--trash
+                |--index.php
+                |--handle_trash.php
+            |--uploaded_files
+        |-- ...
