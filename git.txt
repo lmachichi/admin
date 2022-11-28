@@ -1,0 +1,66 @@
+git status
+git config --list
+git diff
+touch .gitignore
+//creat .gitignore file => include folder to ignored in this file
+git add .gitignore
+git add -a
+//add All
+git commit "first initial commit"
+git commit -m "function to do "
+git pull origin master
+//check if erroor in repo
+git push origin master
+git checkout master
+git log
+
+git branch master2
+git checkout master2
+git statusgit add -A
+git commit -m "master2"
+git push -u origin master2
+
+
+git pull origin master
+git merge master2
+
+
+git --global user.name "h m"
+git --globla user.email "xyz@gmail.com"
+zzzzzzzzzzzzzzz
+git init
+zzzzzzzzzzz
+
+
+git push origin master
+git push -u origin master2
+git remote -v
+//infos in repo
+
+git branch -a
+//infos about branch
+git branch master2
+//create branch named master2 in local and repo
+git checkout master2
+// enabling master2 
+git branch --merged
+//sweeting beetwen branchs
+git merge master2
+//merge to branch master2
+git branch -d master2
+//delete branch in local branch
+git origin --delete master2
+// delette branch in repo
+rm -rf .git
+//Remove >git folder
+git reset {filename}
+//removing file in staging area
+git reset
+//remove all files in staging area
+git clone <url> <where to clone>
+git clone {../remote_repo.git[url]} {.[where to clone]}}
+// clonning a remote repo
+git help config
+//git help <verb>
+git config --help
+//git <verb> --help
