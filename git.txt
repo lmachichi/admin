@@ -1,4 +1,7 @@
 git log
+git remote -v
+//infos in repo
+
 git config --global user.name "h m"
 git config --global user.email "xyz@gmail.com"
 git init
@@ -31,26 +34,23 @@ git branch --merged
 git merge git
 //merge to branch git
 git branch -d git
-//delete branch in local branch
+//delete branch in local
 git origin --delete git
-// delette branch in repo
-rm -rf .git
-//Remove >git folder
-
-git merge git
-git push origin main
-git push -u origin git
-git remote -v
-//infos in repo
+//delete branch in repo
 
 git reset {filename}
 //removing file in staging area
 git reset
 //remove all files in staging area
+
 git clone <url> <where to clone>
 git clone {../remote_repo.git[url]} {.[where to clone]}}
 // clonning a remote repo
+
 git help config
 //git help <verb>
 git config --help
 //git <verb> --help
+
+rm -rf folderName
+//Remove folderName
