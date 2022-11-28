@@ -1,3 +1,4 @@
+git log
 git config --global user.name "h m"
 git config --global user.email "xyz@gmail.com"
 git init
@@ -13,40 +14,37 @@ git commit -m "first initial commit"
 git pull
 git push
 git pull origin main
-git pull origin master
 //check if erroor in repo
-git push origin master
-git checkout master
-git log
-
-git branch master2
-git checkout master2
-git statusgit add -A
-git commit -m "master2"
-git push -u origin master2
-git pull origin master
-git merge master2
-git push origin master
-git push -u origin master2
-git remote -v
-//infos in repo
+git push origin main
 
 git branch -a
 //infos about branch
-git branch master2
-//create branch named master2 in local and repo
-git checkout master2
-// enabling master2 
+git branch git
+//create branch named git in local and repo
+git checkout git
+git checkout git
+// enabling git
+git add -A
+git commit -m "git branch"
+git pull origin git
+git push -u origin git
 git branch --merged
 //sweeting beetwen branchs
-git merge master2
-//merge to branch master2
-git branch -d master2
+git merge git
+//merge to branch git
+git branch -d git
 //delete branch in local branch
-git origin --delete master2
+git origin --delete git
 // delette branch in repo
 rm -rf .git
 //Remove >git folder
+
+git merge master2
+git push origin nain
+git push -u origin git
+git remote -v
+//infos in repo
+
 git reset {filename}
 //removing file in staging area
 git reset
