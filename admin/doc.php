@@ -45,7 +45,7 @@
 
     
     <ul id="doc"></ul>
-    
+    <script src="layout/js/jquery.min.js"></script>
     <script>
         $( function(){
             $.get("http://localhost/app/docs/api/docs.php", function(data){
