@@ -40,9 +40,6 @@
 
 
 
-
-
-
     
     <ul id="doc"></ul>
     <script src="layout/js/jquery.min.js"></script>
