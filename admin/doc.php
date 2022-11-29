@@ -45,8 +45,7 @@
 
     
     <ul id="doc"></ul>
-
-    <script src="assets/dist/js/jquery.min.js"></script>
+    
     <script>
         $( function(){
             $.get("http://localhost/app/docs/api/docs.php", function(data){
@@ -56,6 +55,5 @@
             }, 'json');
             } );
     </script>
-
 
 <?php include "includes/themplates/footer.inc.php" ?>;
