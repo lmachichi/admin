@@ -9,11 +9,12 @@
     <title>Docs</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="layout/css/bootstrap.min.css" rel="stylesheet">
+    <link href="layout/fonts/fontawesome.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+   <!-- <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="assets/dist/css/blog.css" rel="stylesheet">
+    <link href="layout/css/blog.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
