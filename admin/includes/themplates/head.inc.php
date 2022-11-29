@@ -8,10 +8,10 @@
     <meta name="generator" content="Hugo 0.104.2">
     <title>Admin</title>
 
-   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/"> -->
-    <link href="layout/fonts/css/fontawesome.min.css" rel="stylesheet"> 
+   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/"> --> 
     <link href="layout/css/bootstrap.min.css" rel="stylesheet">
     <link href="layout/css/backend.css" rel="stylesheet">
+    <link href="layout/fonts/css/fontawesome.min.css" rel="stylesheet">
 
   </head>
   <body>
