@@ -9,7 +9,7 @@
         
         $output = array('flag'=> 0);
         if(isset($_POST['username']) && isset($_POST['password'])){
-            $query = "SELECT * FROM `users` where user_name = '".$_POST['username']."' and user_password='".$_POST['password']."'";
+            $query = "SELECT * FROM `users` where user_name = '".$_POST['username']."' and user_password='".sha1($_POST['password'])."'";
             
             $res = $conn->query($query);
             if($res->num_rows == 1){
