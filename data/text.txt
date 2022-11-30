@@ -1,0 +1,14 @@
+<?php
+    $a = 12;
+    echo todo();
+    echo $conn;
+    return todo();
+    //gettype(h)
+
+    /* 
+    multiline comment
+    */
+
+    // single comment
+
+    DESC

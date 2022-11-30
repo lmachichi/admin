@@ -1,5 +1,5 @@
 <?php
-        function doc(){
+        function outcome(){
         header("Content-Type: application/json");
         session_start();
         $conn = mysqli_connect("localhost", "root", "", "api");
@@ -7,7 +7,7 @@
             die("fail To Connect to MySql" . mysqli_connect_error());
         }
         
-        $query = "SELECT * FROM `docs` ORDER BY `docs`.`docID` DESC";
+        $query = "SELECT * FROM `outcomes` ORDER BY `outcomes`.`outcome_id` DESC";
         $results = $conn->query($query);
 
         $output = [];
@@ -17,4 +17,4 @@
         //print_r($output);
         echo json_encode($output);
     }   
-    doc();
+    outcome();

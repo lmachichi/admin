@@ -1,4 +1,5 @@
 <?php include "includes/themplates/head.inc.php" ?>;
+
   <div class="container">
     <header class="blog-header lh-1 py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
@@ -16,6 +17,24 @@
         </div>
       </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
         <a class="p-2 link-secondary" href="./home.html">Home</a>
@@ -34,11 +53,29 @@
     </div>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   <ul id="doc"></ul>
   <script src="layout/js/jquery.min.js"></script>
     <script>
         $( function(){
-          $.get("http://localhost/app/docs/api/docs.php", function(data){
+          $.get("http://localhost/app/docs/admin/includes/api/user.php", function(data){
                 for(var i=0; i<data.length; i++){
                     $('#doc').append("<li>"+data[i].docCommand+"</li>");
                 }
